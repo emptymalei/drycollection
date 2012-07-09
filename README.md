@@ -44,3 +44,4 @@ Some backups, some software I use, some libraries I need, etc
 *  web.py
 *  Zotero_linux-i686
 
+*  pylab_build
