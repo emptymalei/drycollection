@@ -45,3 +45,11 @@ Some backups, some software I use, some libraries I need, etc
 *  Zotero_linux-i686
 
 *  pylab_build
+
+
+### Some useful editors
+
+* RStudio   A good platform.
+* Sublime-Text-2   A tool for many kind of langages. I used to weave Markdown.
+
+
