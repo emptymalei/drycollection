@@ -10,6 +10,8 @@ Some backups, some software I use, some libraries I need, etc
 ### System
 
 * indicator-multiload: https://launchpad.net/indicator-multiload/
+* Psensor: http://wpitchoune.net/psensor
+* Weather Indicator 11.11.28 'Cloudy 9':https://launchpad.net/weather-indicator
 
 ### In program folder
 
