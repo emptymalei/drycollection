@@ -62,4 +62,4 @@ When using gem install bundler, there could be a permission issue. When it happe
 
 > [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM
 
-
+or chmod for whatever folders.
