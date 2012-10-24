@@ -55,3 +55,11 @@ Some backups, some software I use, some libraries I need, etc
 * Sublime-Text-2   A tool for many kind of langages. I used to weave Markdown.
 
 
+
+### Something Else
+
+When using gem install bundler, there could be a permission issue. When it happens, add the following line to .bashrc
+
+> [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM
+
+
