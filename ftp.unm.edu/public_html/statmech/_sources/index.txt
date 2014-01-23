@@ -1,0 +1,17 @@
+Statistical Mechanics
+=============================
+
+.. toctree::
+    :maxdepth: 3
+
+    src/intro.rst
+    src/equilibrium/main.rst
+    src/stochastic/main.rst
+    src/nonequilibrium/main.rst
+
+
+
+
+------
+
+Download `PDF Version <https://github.com/emptymalei/StatisticalPhysics/raw/master/_build/latex/statistical-physics.pdf>`_ .

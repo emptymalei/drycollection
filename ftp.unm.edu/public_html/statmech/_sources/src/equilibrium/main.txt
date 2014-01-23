@@ -1,0 +1,7 @@
+Equilibrium
+==============
+
+.. toctree::
+    :maxdepth: 2
+
+    week1.rst

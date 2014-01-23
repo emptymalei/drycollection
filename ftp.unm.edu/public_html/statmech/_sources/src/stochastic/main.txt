@@ -1,0 +1,8 @@
+Stochasitc
+==========================
+
+.. toctree::
+    :maxdepth: 2
+
+
+This part is left blank for stochastic process.

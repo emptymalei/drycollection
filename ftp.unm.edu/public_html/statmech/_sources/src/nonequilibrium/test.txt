@@ -1,0 +1,15 @@
+Radial Schrödinger and Dirac Equations
+======================================
+
+Variational Formulation of the Schrödinger equation
+---------------------------------------------------
+
+Lagrangian is:
+
+.. math::
+
+    \L(\psi) = \half (\nabla \psi)^2 + V(x) \psi^2(x)
+
+Subject to the normalization constrain:
+
+

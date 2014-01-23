@@ -1,0 +1,12 @@
+Week N
+===================
+
+Template N
+---------------------
+
+template for math
+
+.. math::
+
+    A^\alpha = \left({\phi\over c}, {\bf A}\right)
+
