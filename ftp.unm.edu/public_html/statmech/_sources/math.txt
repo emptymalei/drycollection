@@ -1,0 +1,35 @@
+.. index:: Gaussian Integral, Special Functions
+
+
+Mathematics
+===========
+
+.. index:: Gaussian Integral
+
+
+Most Used Expressions
+----------------------
+
+Gaussian Intergral
+~~~~~~~~~~~~~~~~~~
+
+.. math::
+
+   \int_{-\infty}^{\infty} e^{-ax^2} \mathrm dx = \sqrt{\frac{\pi}{a}}
+
+A comprehensive description of how this is done is `here <http://mathworld.wolfram.com/GaussianIntegral.html>`_.
+
+Basicly, we just transform the problem to the :math:`\int e^{-x} \mathrm dx` problem.
+
+
+Behavior of Functions
+~~~~~~~~~~~~~~~~~~~~~~
+
+1. Tanh(x)
+
+.. figure:: _static/images/tanh.png
+   :alt: tanh(x)
+
+   Tanh(x) from wolframalpha
+
+

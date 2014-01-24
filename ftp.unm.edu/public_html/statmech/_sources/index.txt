@@ -4,10 +4,11 @@ Statistical Mechanics
 .. toctree::
     :maxdepth: 3
 
-    src/intro.rst
-    src/equilibrium/main.rst
-    src/stochastic/main.rst
-    src/nonequilibrium/main.rst
+    intro.rst
+    math.rst
+    equilibrium/main.rst
+    stochastic/main.rst
+    nonequilibrium/main.rst
 
 
 

@@ -8,24 +8,24 @@
     
     <title>Week 1 &mdash; Statistical Physics Notes 1.38 documentation</title>
     
-    <link rel="stylesheet" href="../../_static/haiku.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/print.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/print.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
+        URL_ROOT:    '../',
         VERSION:     '1.38',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
       };
     </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/theme_extras.js"></script>
-    <link rel="top" title="Statistical Physics Notes 1.38 documentation" href="../../index.html" />
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/theme_extras.js"></script>
+    <link rel="top" title="Statistical Physics Notes 1.38 documentation" href="../index.html" />
     <link rel="up" title="Equilibrium Statistical Mechanics" href="main.html" />
     <link rel="next" title="Stochastic Aspects of Statistical Mechanics" href="../stochastic/main.html" />
     <link rel="prev" title="Equilibrium Statistical Mechanics" href="main.html" />
@@ -46,7 +46,7 @@
 
   </head>
   <body>
-      <div class="header"><h1 class="heading"><a href="../../index.html">
+      <div class="header"><h1 class="heading"><a href="../index.html">
           <span>Statistical Physics Notes 1.38 documentation</span></a></h1>
         <h2 class="heading"><span>Week 1</span></h2>
       </div>
@@ -55,7 +55,7 @@
         <p>
         «&#160;&#160;<a href="main.html">Equilibrium Statistical Mechanics</a>
         &#160;&#160;::&#160;&#160;
-        <a class="uplink" href="../../index.html">Contents</a>
+        <a class="uplink" href="../index.html">Contents</a>
         &#160;&#160;::&#160;&#160;
         <a href="../stochastic/main.html">Stochastic Aspects of Statistical Mechanics</a>&#160;&#160;»
         </p>
@@ -68,9 +68,9 @@
 <span id="index-0"></span><h1>Week 1<a class="headerlink" href="#week-1" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="phase-space">
 <span id="index-1"></span><h2>Phase Space<a class="headerlink" href="#phase-space" title="Permalink to this headline">¶</a></h2>
-<p>Why is statistics important? Remember we are dealing with Avogadro&#8217;s number of DoFs. If we are going to calculate the dynamics of this system by calculating the dynamics of each particles. To store one screenshot of the system with each DoF take only 8 bits, we need <img class="math" src="../../_images/math/9b57d5e28a49b3feef3b42606247cb0f3638b52a.png" alt="10^23"/> bytes that is <img class="math" src="../../_images/math/9ad67d616ebc88d7f685623f74426c817e469ac6.png" alt="10^17"/> GB. It is not even possible to store only one screenshot of the system. So time to change our view of these kind of systems.</p>
+<p>Why is statistics important? Remember we are dealing with Avogadro&#8217;s number of DoFs. If we are going to calculate the dynamics of this system by calculating the dynamics of each particles. To store one screenshot of the system with each DoF take only 8 bits, we need <img class="math" src="../_images/math/9b57d5e28a49b3feef3b42606247cb0f3638b52a.png" alt="10^23"/> bytes that is <img class="math" src="../_images/math/9ad67d616ebc88d7f685623f74426c817e469ac6.png" alt="10^17"/> GB. It is not even possible to store only one screenshot of the system. So time to change our view of these kind of systems.</p>
 <div class="figure">
-<img alt="Newton's Dream" src="../../_images/newtonsDream.jpg" />
+<img alt="Newton's Dream" src="../_images/newtonsDream.jpg" />
 <p class="caption">Newton&#8217;s plan of mechanics. Mechanics was in the center of all physics.</p>
 </div>
 <p>What is mechanics? It deals with dynmaics in the following way:</p>
@@ -85,16 +85,16 @@
 <div class="section" id="boltzmann-factor">
 <h2>Boltzmann Factor<a class="headerlink" href="#boltzmann-factor" title="Permalink to this headline">¶</a></h2>
 <div class="math">
-<p><img src="../../_images/math/e09d801639177d5038c9deabc5a2281cfe4c25c0.png" alt="\text{probability of a point in phase space} = \exp(-\frac{E}{k_B T})"/></p>
-</div><p>Boltzmann factor gives us the (not normalized) probability of the system staying on a phase space state with energy <img class="math" src="../../_images/math/fa2fa899f0afb05d6837885523503a2d4df434f9.png" alt="E"/>.</p>
+<p><img src="../_images/math/e09d801639177d5038c9deabc5a2281cfe4c25c0.png" alt="\text{probability of a point in phase space} = \exp(-\frac{E}{k_B T})"/></p>
+</div><p>Boltzmann factor gives us the (not normalized) probability of the system staying on a phase space state with energy <img class="math" src="../_images/math/fa2fa899f0afb05d6837885523503a2d4df434f9.png" alt="E"/>.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>Why do Boltzmann factor appear a lot in equilibrium statistical mechanics? Equilibrium of the system means when we add infinitesimal amout of energy to the whole thing including system and reservior, a characteristic quantity <img class="math" src="../../_images/math/e71018004207885052f361b27fc142ee4757da09.png" alt="C(E) = C_S C_R"/> won&#8217;t change. That is the system and the reservior will have the same changing rate of the characteristic quantity when energy is changed, i.e.,</p>
+<p>Why do Boltzmann factor appear a lot in equilibrium statistical mechanics? Equilibrium of the system means when we add infinitesimal amout of energy to the whole thing including system and reservior, a characteristic quantity <img class="math" src="../_images/math/e71018004207885052f361b27fc142ee4757da09.png" alt="C(E) = C_S C_R"/> won&#8217;t change. That is the system and the reservior will have the same changing rate of the characteristic quantity when energy is changed, i.e.,</p>
 <div class="math">
-<p><img src="../../_images/math/3d60d9acdbdcd707d6ca343bed11e3f8279ea051.png" alt="\frac{\partial \ln C_S}{\partial E_S} = - \frac{\partial \ln C_R}{\partial E_R} ."/></p>
-</div><p>We have <img class="math" src="../../_images/math/dd2abcfaa317a209f7403031c4e3ef64e196c949.png" alt="\mathrm dE_1 = -\mathrm dE_2"/> in a equilibrium state. They should both be a constant, which we set to <img class="math" src="../../_images/math/fdb63b9e51abe6bbb16acfb5d7b773ddbb5bf4a8.png" alt="\beta"/>. Finally we have something like</p>
+<p><img src="../_images/math/3d60d9acdbdcd707d6ca343bed11e3f8279ea051.png" alt="\frac{\partial \ln C_S}{\partial E_S} = - \frac{\partial \ln C_R}{\partial E_R} ."/></p>
+</div><p>We have <img class="math" src="../_images/math/dd2abcfaa317a209f7403031c4e3ef64e196c949.png" alt="\mathrm dE_1 = -\mathrm dE_2"/> in a equilibrium state. They should both be a constant, which we set to <img class="math" src="../_images/math/fdb63b9e51abe6bbb16acfb5d7b773ddbb5bf4a8.png" alt="\beta"/>. Finally we have something like</p>
 <div class="math">
-<p><img src="../../_images/math/0bb7750275fb3220369de4b0554ccc8d22d84bae.png" alt="\frac{\partial \ln C_S}{\partial E_S} = \beta"/></p>
+<p><img src="../_images/math/0bb7750275fb3220369de4b0554ccc8d22d84bae.png" alt="\frac{\partial \ln C_S}{\partial E_S} = \beta"/></p>
 </div><p>which will give us a Boltzmann factor there.</p>
 <p class="last">This is just a very simple precedure to show that Boltzmann factor is kind of a natural factor in equilibrium system.</p>
 </div>
@@ -103,13 +103,13 @@
 <h2>Magnetization<a class="headerlink" href="#magnetization" title="Permalink to this headline">¶</a></h2>
 <p>We have such a result in an experiment of magnetization with N magnetic dipoles in 1D.</p>
 <p>How can we describe this with a theory?</p>
-<p>It&#8217;s not possible to describe the system by writing down the dynamics of each magnetic dipole. So we have to try some macroscpic view of the system. Probability theory is a great tool for this. The probability of a dipole on a energy state <img class="math" src="../../_images/math/f8f358aa01478e43f1a663db574b83f88d7be478.png" alt="E_i"/> is</p>
+<p>It&#8217;s not possible to describe the system by writing down the dynamics of each magnetic dipole. So we have to try some macroscpic view of the system. Probability theory is a great tool for this. The probability of a dipole on a energy state <img class="math" src="../_images/math/f8f358aa01478e43f1a663db574b83f88d7be478.png" alt="E_i"/> is</p>
 <div class="math">
-<p><img src="../../_images/math/c232577078a9bacf5e0cc81ccb7fba7f6dbe579d.png" alt="P(E_i) = \frac{\exp(-\beta E_i)}{\sum_{i=1}^{n} \exp(-\beta E_i)}  ."/></p>
+<p><img src="../_images/math/c232577078a9bacf5e0cc81ccb7fba7f6dbe579d.png" alt="P(E_i) = \frac{\exp(-\beta E_i)}{\sum_{i=1}^{n} \exp(-\beta E_i)}  ."/></p>
 </div><p>So the megnetization in this simple case is</p>
 <div class="math">
-<p><img src="../../_images/math/456d01efda949b35ebcd695ffbe1b9994fc23c5c.png" alt="M = (\mu N e^{\beta \mu B} \mu N e^{-\beta \mu B})/(\exp(\beta \mu B) + \exp(-\beta \mu B)) = \mu N \tanh (\beta \mu B)"/></p>
-</div><p>Use ipython notebook to display this result. The original notebook can be downloaded from <cite>here &lt;display.ipynb</cite>.</p>
+<p><img src="../_images/math/4ded7b7d67c02c4b17f516092181cb15da04d20e.png" alt="M = (\mu N e^{\beta \mu B} - \mu N e^{-\beta \mu B})/(\exp(\beta \mu B) + \exp(-\beta \mu B)) = \mu N \tanh (\beta \mu B)"/></p>
+</div><p>Use ipython notebook to display this result. The original notebook can be downloaded from <a class="reference external" href="http://emptymalei.github.io/StatisticalPhysics/equilibrium/display.ipynb">here</a>. (Just put the link to <a class="reference external" href="http://nbviewer.ipython.org">nbviewer</a> and everyone can view online.)</p>
 <div class="code python highlight-python"><pre>%pylab inline
 from pylab import *</pre>
 </div>
@@ -127,8 +127,21 @@ from pylab import *</pre>
 <span class="n">show</span><span class="p">();</span>
 </pre></div>
 </div>
-<img alt="../../_images/display_2_0.png" src="../../_images/display_2_0.png" />
-<p>This is exactly the thing we</p>
+<img alt="../_images/display_2_0.png" src="../_images/display_2_0.png" />
+<p>This is exactly the thing we saw in the experiment.</p>
+<p>This can be classified as a category of problems. In this specific example we see saturation of magnetization. However this is not alway true.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Examples can be shown here.</p>
+</div>
+</div>
+<div class="section" id="heat-capacity">
+<h2>Heat Capacity<a class="headerlink" href="#heat-capacity" title="Permalink to this headline">¶</a></h2>
+<p>Another category of problems is temperature related. For example, a study of average energy with change temperature.</p>
+<p>For the paramagnetic example, the energy of the system is</p>
+<div class="math">
+<p><img src="../_images/math/262d4e1f187ee465aaad6b491a7b03dfa39cb16c.png" alt="E = (\mu B N e^{\beta \mu B} - \mu N e^{-\beta \mu B})/(\exp(\beta \mu B) + \exp(-\beta \mu B)) = \mu N B \tanh (\beta \mu B)"/></p>
+</div><p>Obviously, no phase transition would occur. But if we introduce self interactions between dipoles and go to higher dimensions, it&#8217;s possible to find phase transitions.</p>
 </div>
 </div>
 
@@ -139,7 +152,7 @@ from pylab import *</pre>
         <p>
         «&#160;&#160;<a href="main.html">Equilibrium Statistical Mechanics</a>
         &#160;&#160;::&#160;&#160;
-        <a class="uplink" href="../../index.html">Contents</a>
+        <a class="uplink" href="../index.html">Contents</a>
         &#160;&#160;::&#160;&#160;
         <a href="../stochastic/main.html">Stochastic Aspects of Statistical Mechanics</a>&#160;&#160;»
         </p>

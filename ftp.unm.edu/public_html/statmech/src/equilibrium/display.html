@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Equilibrium Statistical Mechanics &mdash; Statistical Physics Notes 1.38 documentation</title>
+    <title>&lt;no title&gt; &mdash; Statistical Physics Notes 1.38 documentation</title>
     
     <link rel="stylesheet" href="../../_static/haiku.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -26,8 +26,6 @@
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <script type="text/javascript" src="../../_static/theme_extras.js"></script>
     <link rel="top" title="Statistical Physics Notes 1.38 documentation" href="../../index.html" />
-    <link rel="next" title="Week 1" href="week1.html" />
-    <link rel="prev" title="Mathematics" href="../math.html" />
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -47,46 +45,43 @@
   <body>
       <div class="header"><h1 class="heading"><a href="../../index.html">
           <span>Statistical Physics Notes 1.38 documentation</span></a></h1>
-        <h2 class="heading"><span>Equilibrium Statistical Mechanics</span></h2>
+        <h2 class="heading"><span>&lt;no title&gt;</span></h2>
       </div>
       <div class="topnav">
       
         <p>
-        «&#160;&#160;<a href="../math.html">Mathematics</a>
-        &#160;&#160;::&#160;&#160;
         <a class="uplink" href="../../index.html">Contents</a>
-        &#160;&#160;::&#160;&#160;
-        <a href="week1.html">Week 1</a>&#160;&#160;»
         </p>
 
       </div>
       <div class="content">
         
         
-  <div class="section" id="equilibrium-statistical-mechanics">
-<h1>Equilibrium Statistical Mechanics<a class="headerlink" href="#equilibrium-statistical-mechanics" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="week1.html">Week 1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="week1.html#phase-space">Phase Space</a></li>
-<li class="toctree-l2"><a class="reference internal" href="week1.html#boltzmann-factor">Boltzmann Factor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="week1.html#magnetization">Magnetization</a></li>
-</ul>
-</li>
-</ul>
+  <div class="code python highlight-python"><pre>%pylab inline
+from pylab import *</pre>
 </div>
+<div class="highlight-python"><pre>Populating the interactive namespace from numpy and matplotlib</pre>
 </div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">x</span><span class="o">=</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">y</span><span class="o">=</span><span class="n">tanh</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">figure</span><span class="p">()</span>
+<span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span>
+<span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;External Magnetic Field&#39;</span><span class="p">)</span>
+<span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;M&#39;</span><span class="p">)</span>
+<span class="n">title</span><span class="p">(</span><span class="s">&#39;Tanh theory&#39;</span><span class="p">)</span>
+<span class="n">show</span><span class="p">();</span>
+</pre></div>
+</div>
+<img alt="../../_images/display_2_0.png" src="../../_images/display_2_0.png" />
 
 
       </div>
       <div class="bottomnav">
       
         <p>
-        «&#160;&#160;<a href="../math.html">Mathematics</a>
-        &#160;&#160;::&#160;&#160;
         <a class="uplink" href="../../index.html">Contents</a>
-        &#160;&#160;::&#160;&#160;
-        <a href="week1.html">Week 1</a>&#160;&#160;»
         </p>
 
       </div>

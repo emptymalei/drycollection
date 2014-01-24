@@ -64,7 +64,7 @@ Magnetization
 
 We have such a result in an experiment of magnetization with N magnetic dipoles in 1D.
 
-.. images:: images/magnetizationExp.gif
+.. images:: images/magnetizationExp.jpg
 
 How can we describe this with a theory?
 
@@ -76,9 +76,9 @@ It's not possible to describe the system by writing down the dynamics of each ma
 So the megnetization in this simple case is
 
 .. math::
-   M = (\mu N e^{\beta \mu B} \mu N e^{-\beta \mu B})/(\exp(\beta \mu B) + \exp(-\beta \mu B)) = \mu N \tanh (\beta \mu B)
+   M = (\mu N e^{\beta \mu B} - \mu N e^{-\beta \mu B})/(\exp(\beta \mu B) + \exp(-\beta \mu B)) = \mu N \tanh (\beta \mu B)
 
-Use ipython notebook to display this result. The original notebook can be downloaded from `here <display.ipynb`.
+Use ipython notebook to display this result. The original notebook can be downloaded from `here <http://emptymalei.github.io/StatisticalPhysics/equilibrium/display.ipynb>`_. (Just put the link to `nbviewer <http://nbviewer.ipython.org>`_ and everyone can view online.)
 
 
 .. code:: python
@@ -109,4 +109,27 @@ Use ipython notebook to display this result. The original notebook can be downlo
 
 
 
-This is exactly the thing we 
+This is exactly the thing we saw in the experiment.
+
+
+This can be classified as a category of problems. In this specific example we see saturation of magnetization. However this is not alway true.
+
+.. note::
+   Examples can be shown here.
+
+
+Heat Capacity
+---------------
+
+
+Another category of problems is temperature related. For example, a study of average energy with change temperature.
+
+For the paramagnetic example, the energy of the system is
+
+.. math::
+   E = (\mu B N e^{\beta \mu B} - \mu N e^{-\beta \mu B})/(\exp(\beta \mu B) + \exp(-\beta \mu B)) = \mu N B \tanh (\beta \mu B)
+
+
+Obviously, no phase transition would occur. But if we introduce self interactions between dipoles and go to higher dimensions, it's possible to find phase transitions.
+
+
