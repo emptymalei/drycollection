@@ -11,6 +11,7 @@
 
 
 1. Evernote
+2. [Snappy App](http://www.snappy-app.com/)
 
 
 
