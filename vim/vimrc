@@ -486,65 +486,97 @@ map <leader>bb :cd ..<cr>
 " My Bundles here:
 
 " vim-scripts repos
-set nocompatible " be iMproved
-filetype off " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
-Bundle 'davidhalter/jedi-vim'
-" Bundle 'davidhalter/jedi'
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+Plugin 'davidhalter/jedi-vim'
+" Plugin 'davidhalter/jedi'
 
 " Syntax
-Bundle 'asciidoc.vim'
-Bundle 'confluencewiki.vim'
-Bundle 'html5.vim'
-Bundle 'JavaScript-syntax'
-"Bundle 'mako.vim'
-Bundle 'moin.vim'
-Bundle 'python.vim--Vasiliev'
-Bundle 'xml.vim'
+Plugin 'asciidoc.vim'
+Plugin 'confluencewiki.vim'
+Plugin 'html5.vim'
+Plugin 'JavaScript-syntax'
+"Plugin 'mako.vim'
+Plugin 'moin.vim'
+Plugin 'python.vim--Vasiliev'
+Plugin 'xml.vim'
 
 " Color
 
-Bundle 'desert256.vim'
-Bundle 'Impact'
-Bundle 'matrix.vim'
-Bundle 'vibrantink'
-Bundle 'vividchalk.vim'
+Plugin 'desert256.vim'
+Plugin 'Impact'
+Plugin 'matrix.vim'
+Plugin 'vibrantink'
+Plugin 'vividchalk.vim'
 
 " Ftplugin
-Bundle 'python_fold'
+Plugin 'python_fold'
 
 " Indent
-"Bundle 'indent/html.vim'
-Bundle 'IndentAnything'
-Bundle 'Javascript-Indentation'
-Bundle 'mako.vim--Torborg'
-Bundle 'gg/python.vim'
+"Plugin 'indent/html.vim'
+Plugin 'IndentAnything'
+Plugin 'Javascript-Indentation'
+Plugin 'mako.vim--Torborg'
+Plugin 'gg/python.vim'
 
 " Plugin
-Bundle 'The-NERD-tree'
-Bundle 'AutoClose--Alves'
-Bundle 'auto_mkdir'
-Bundle 'cecutil'
-"  Bundle 'fcitx.vim'
-Bundle 'FencView.vim'
-"Bundle 'FuzzyFinder'
-Bundle 'jsbeautify'
-Bundle 'L9'
-" Bundle 'Mark'
-Bundle 'matrix.vim'
-Bundle 'mru.vim'
-Bundle 'The-NERD-Commenter'
-"Bundle 'project.vim'
-Bundle 'restart.vim'
-Bundle 'taglist.vim'
-"Bundle 'templates.vim'
-"Bundle 'vimim.vim'
-Bundle 'ZenCoding.vim'
-Bundle 'css_color.vim'
-Bundle 'hallettj/jslint.vim'
+Plugin 'The-NERD-tree'
+Plugin 'AutoClose--Alves'
+Plugin 'auto_mkdir'
+Plugin 'cecutil'
+"  Plugin 'fcitx.vim'
+Plugin 'FencView.vim'
+"Plugin 'FuzzyFinder'
+Plugin 'jsbeautify'
+Plugin 'L9'
+" Plugin 'Mark'
+" Plugin 'matrix.vim'
+Plugin 'mru.vim'
+Plugin 'The-NERD-Commenter'
+"Plugin 'project.vim'
+Plugin 'restart.vim'
+Plugin 'taglist.vim'
+"Plugin 'templates.vim'
+"Plugin 'vimim.vim'
+Plugin 'ZenCoding.vim'
+Plugin 'css_color.vim'
+Plugin 'hallettj/jslint.vim'
+
+" Plugin Used On Marvin MacBook Pro
+Plugin 'szw/vim-ctrlspace' 
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'https://github.com/vimwiki/vimwiki.git'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'bling/vim-airline'
+Plugin 'Rykka/riv.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 
 
 filetype plugin indent on
