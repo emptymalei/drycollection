@@ -1,5 +1,0 @@
-# .logout
-# .logout is for putting your csh or tcsh shell commands to execute on exit.
-
-# Eg. Always delete netscape cache on logout.
-# rm -rf ~/.netscape/cache

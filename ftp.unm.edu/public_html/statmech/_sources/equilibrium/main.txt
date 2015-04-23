@@ -1,7 +1,0 @@
-Equilibrium Statistical Mechanics
-=================================
-
-.. toctree::
-    :maxdepth: 2
-
-    week1.rst
