@@ -1,8 +1,6 @@
 
 
-1. Add TogetherJS icon to byline. in post.php file:
+Add TogetherJS icon to byline. in post.php file
 
 
-```
-<?php echo apply_atomic_shortcode( 'byline', '<div class="byline">' . __( '[entry-published] &middot; by [entry-author] &middot; in [entry-terms taxonomy="category" before=""] &middot; <a onclick="TogetherJS(this); return false;" style="font-weight:bold;color:orange;font-style:normal;cursor:default;"><i class="icon-female"></i>  &#91; Co-Reading &#93; <i class="icon-male"></i></a> &middot; [entry-edit-link before=" &middot; "]', 'origin' ) . '</div>' ); ?>
-```
+`<?php echo apply_atomic_shortcode( 'byline', '<div class="byline">' . __( '[entry-published] &middot; by [entry-author] &middot; in [entry-terms taxonomy="category" before=""] &middot; <a onclick="TogetherJS(this); return false;" style="font-weight:bold;color:orange;font-style:normal;cursor:default;"><i class="icon-female"></i>  &#91; Co-Reading &#93; <i class="icon-male"></i></a> &middot; [entry-edit-link before=" &middot; "]', 'origin' ) . '</div>' ); ?>`
