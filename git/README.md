@@ -1,8 +1,21 @@
+## Useful Commands
+
+* To check all the commits related to a file, use `git log -u`.
+* Try out `git log -g` before determine which reflog to deal with.
+* To compare the changes with the last commit, use `git diff --cached HEAD~1`.
+
+
+* A very useful article here: [Must Have Git Aliases: Advanced Examples](http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/).
+
+
 ## Useful Alias
 
-`git config --global alias.unstage 'reset HEAD --'`
+* `git config --global alias.unstage 'reset HEAD --'`
+* `git config --global alias.last 'log -1 HEAD'`
 
-`git config --global alias.last 'log -1 HEAD'`
+Among `[alias]` section of `~/.gitconfig` file:
+
+* `ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat`
 
 
 ## FAQ
@@ -58,5 +71,3 @@ S: Check the conflicts using `git status`. Open up the conflict file and you wil
 P: **So hard to resolve the conflicts.**
 
 S: `git mergetool` will use a graphical tool.
-
-
