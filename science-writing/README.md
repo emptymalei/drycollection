@@ -6,6 +6,8 @@ Notes on typesetting physics
 
 - [LaTeX Basics](latex/latex-basics.md)
 - [LaTeX Preambles](latex/latex-preambles.md)
+- [Using Chinese in LaTeX](latex/chinese)
+- [HTML verions of TeX Commands using MathJax](TeXCommandsMathJax.html)
 
 ### VIM
 

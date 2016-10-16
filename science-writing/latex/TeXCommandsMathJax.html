@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>JaxEdit LaTeX Editor</title>
+<!-- copyright (c) 2011 zoho@ctex -->
+<!-- Revised by Marley -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!--Mathjax START -->  
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"], ["[;", ";]"] ],
+      processEscapes: true  
+    }
+  });
+</script>
+
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+</script>
+<!--Mathjax END -->
+</head>
+
+
+<body>
+
+
+
+<h1>$\rm\TeX$ 公式命令基本用法</h1>
+
+
+<h2>基本的公式写法</h2>
+
+<h3>四则运算</h3>
+
+$a + b - c \times d \div e = x$  	
+
+对应的带代码是：
+
+<pre>
+a + b - c \times d \div e = x
+</pre>
+
+
+<h3>上下标</h3>
+
+^ 用来产生上标，例如 a^u 表示 $a^u$ 。
+
+_ 用来产生下标，例如 a_u 表示 $a_u$ 。
+
+
+<h3>分式的表示</h3>
+
+
+$ \frac{1}{2} $ 对应的代码是：
+
+<pre>
+\frac{1}{2}
+</pre>
+
+分式的表示还有其他的样式，例如 cfrac 和 dfrac 命令。
+
+
+
+<h3>方次、根号的表示</h3>
+
+
+$ \sqrt{a^2 + b^2} $ 对应的代码是：
+
+<pre>
+\sqrt{a^2 + b^2}
+</pre>
+
+其中 ^ 符号可以用来表示方次，例如例子中的 a^2 表示 $a^2$； \sqrt 表示根式，例如 \sqrt{2} 表示 $\sqrt{2}$
+如果要表示更高的次的根号，可以使用 \sqrt[n]{} 来表示，例如 \sqrt[n]{ a + b} 表示 $\sqrt[n]{ a + b}$ 。
+
+
+<h3>求和、极限和微积分</h3>
+
+<h4>求和</h4>
+
+$\sum\limits_{i=1}^n X_i$ 对应的代码是：
+
+<pre>
+\sum\limits_{i=1}^n X_i
+</pre>
+其中 \sum 表示求和，例如 \sum X 表示 $\sum X$； \limits 给出了 \sum 的上下限。也可以只给出下限，例如 \sum\limits_{i=1} X 给出了 $\sum\limits_{i=1} X$ 。
+
+
+<h4>极限</h4>
+
+$\lim\limits_{x\to 0} x$ 对应的代码是：
+
+<pre>
+\lim\limits_{x\to 0} x
+</pre>
+
+其中，\lim 表示极限 $\lim$， \limits 用来给出下标，这里 \limits_{x \to 0} 给出了 $x\to 0$ 的下标。
+
+
+<h4>微分</h4>
+
+$\frac{d y}{d x}$ 对应的代码是：
+<pre>
+\frac{d y}{d x}
+</pre>
+当然有时候斜体的 d 是不太合适的，比较恰当的方法是使用 \mathrm 来把 d 的数学格式去掉，例如
+\frac{\mathrm d y}{\mathrm d x} 表示 $ \frac{\mathrm d y}{\mathrm d x} $ 。
+
+
+
+<h4>积分</h4>
+
+$ \int_a^b f(x)~dx $ 对应的代码是：
+
+<pre>
+\int_a^b f(x)~dx
+</pre>
+
+其中，$\int$ 就是积分的符号，只写这个符号，就是显示为 $\int$，可以通过正常的上下标来给出积分的上下限，例如 \int_a^b 给出的是 $\int_a^b$。~ 符号是个空格，但是不同的是，这个空格不会断行。加了 ~ 可以使得积分式子更漂亮。
+
+<p>
+当然我们也可以写出不定积分：
+
+$ \int f(x)~ dx$
+
+</p>
+
+
+
+
+
+
+
+<h1>常用 $\rm\TeX$ 命令列表</h1>
+
+
+
+<h2>常用符号列表</h2>
+
+<h3>希腊字母表</h3>
+
+大写的希腊字母就是将小写的希腊字母的命令的第一个字母大写，例如 $\gamma$ 的大写 $\Gamma$ 的命令是 \Gamma 。
+
+
+<div class="greeceAlph">
+
+$\alpha$ \alpha	<br> 	$\beta$	\beta <br>	$\gamma$	\gamma	<br>
+$\delta$	\delta    <br>
+$\epsilon$	\epsilon	<br>
+$\varepsilon$	\varepsilon	<br>
+$\zeta$	\zeta	<br>
+$\eta$	\eta   <br>
+$\theta$	\theta		<br>
+$\vartheta$	\vartheta		<br>
+$\iota$	\iota		<br>
+$\kappa$	\kappa    <br>
+$\lambda$	\lambda		<br>
+$\mu$	\mu		<br>
+$\nu$	\nu		<br>
+$\xi$	\xi    <br>
+$\pi$	\pi		<br>
+$\varpi$	\varpi		<br>
+$\rho$	\rho		<br>
+$\varrho$	\varrho     <br>
+$\sigma$	\sigma		<br>
+$\varsigma$	\varsigma		<br>
+$\tau$	\tau		<br>
+$\upsilon$	\upsilon    <br>
+$\phi$	\phi		<br>
+$\varphi$	\varphi		<br>
+$\chi$	\chi		<br>
+$\psi$	\psi    <br>
+$\omega$	\omega
+	
+</div>
+
+
+<h3>常用数学符号</h3>
+
+
+<div>
+$\pm$	\pm		<br>
+$\mp$   \mp		<br>
+$\times$ \times <br>
+$\div$	\div		<br>
+$\sqrt{x}$	\sqrt{x}   <br>
+$\cdot$ \cdot		<br>
+$\ast$ \ast  <br>
+$\star$	\star		<br>
+$\dagger$	\dagger		<br>
+$\ddagger$	\ddagger  <br>
+$\amalg$	\amalg		<br>
+$\cap$	\cap		<br>
+$\cup$	\cup  <br>
+$\uplus$	\uplus		<br>
+$\sqcap$	\sqcap		<br>
+$\sqcup$	\sqcup  <br>
+$\vee$	\vee		<br>
+$\wedge$	\wedge		<br>
+$\oplus$	\oplus <br>
+$\ominus$	\ominus		<br>
+$\otimes$	\otimes		<br>
+$\circ$	\circ  <br>
+$\bullet$	\bullet		<br>
+$\diamond$	\diamond		<br>
+$\lhd$	\lhd  <br>
+$\rhd$	\rhd		<br>
+$\unlhd$	\unlhd		<br>
+$\unrhd$	\unrhd  <br>
+$\oslash$	\oslash		<br>
+$\odot$	\odot		<br>
+$\bigcirc$	\bigcirc  <br>
+$\triangleleft$	\triangleleft		<br>
+$\Diamond$	\Diamond		<br>
+$\bigtriangleup$	\bigtriangleup <br>
+$\bigtriangledown$	\bigtriangledown		<br>
+$\Box$	\Box		<br>
+$\triangleright$	\triangleright  <br>
+$\setminus$	\setminus		<br>
+$\wr$	\wr		<br>
+$x^{\circ}$	x^{\circ}
+</div>
+
+
+<h4>其他常用的数学符号还有</h4>
+
+<div>
+$\frac{a}{b}$ \frac{a}{b} ：分式的写法。可以嵌套使用。例如， \frac{ \frac{a}{b} }{ c } 给出的结果是 $\frac{ \frac{a}{b} }{ c }$  。<br>
+$\infty$ \infty ：无穷符号。<br>	
+$\nabla$ \nabla ：用于表示微分，梯度等。
+</div>
+
+
+
+
+<h3>等号不等号</h3>
+
+<div>
+$\nmid$	\nmid		<br>
+$\nleq$	\nleq		<br>
+$\ngeq$	\ngeq   <br>
+$\nsim$	\nsim		<br>
+$\ncong$	\ncong		<br>
+$\nparallel$	\nparallel  <br>
+$\not<$	\not<		<br>
+$\not>$	\not>		<br>
+$\not=$	\not=   <br>
+$\not\le$	\not\le		<br>
+$\not\ge$	\not\ge		 <br>
+$\not\sim$	\not\sim  <br>
+$\not\approx$	\not\approx		<br>
+$\not\cong$	\not\cong		<br>
+$\not\equiv$	\not\equiv   <br>
+$\not\parallel$	\not\parallel		<br>
+$\nless$	\nless		<br>
+$\ngtr$	\ngtr   <br>
+$\lneq$	\lneq		<br>
+$\gneq$	\gneq		<br>
+$\lnsim$	\lnsim  <br>
+$\lneqq$	\lneqq		<br>
+$\gneqq$	\gneqq
+</div>
+
+
+<h3>括号</h3>
+
+<div>
+$\{$	\{	<br>
+$\}$	\}	<br>
+$\|$	\|	<br>
+$\backslash$	\backslash	<br>
+$\lfloor$	\lfloor	<br>
+$\rfloor$	\rfloor	<br>
+$\lceil$	\lceil	<br>
+$\rceil$	\rceil	<br>
+$\langle$	\langle	<br>
+$\rangle$	\rangle	<br>	
+</div>
+
+括号使用时，如果括号内的字符是多行，应当使用 \left 和 \right 的命令。例如，\frac{1}{2} 给出了一个分式，如果我们要表示这个分式的平方，仅仅使用括号时，即 ( \frac{1}{2} )^2 ，我们看到的结果是：
+$$( \frac{1}{2} )^2$$
+这样的很小的括号。
+这是不正确的，正确的做法是使用 \left( \frac{1}{2} \right)^2 ，即，
+$$\left( \frac{1}{2} \right)^2$$
+来表示。
+
+<h3>箭头符号</h3>
+
+
+<div>
+$\gets$	\gets		<br>
+$\to$	\to  <br>
+$\leftarrow$	\leftarrow		<br>
+$\Leftarrow$	\Leftarrow      <br>
+$\rightarrow$	\rightarrow		<br>
+$\Rightarrow$	\Rightarrow    <br>
+$\leftrightarrow$	\leftrightarrow   <br>		
+$\Leftrightarrow$	\Leftrightarrow   <br>
+$\mapsto$	\mapsto		<br>
+$\hookleftarrow$	\hookleftarrow  <br>
+$\leftharpoonup$	\leftharpoonup		<br>
+$\leftharpoondown$	\leftharpoondown   <br>
+$\rightleftharpoons$	\rightleftharpoons  		<br>
+$\longleftarrow$	\longleftarrow <br>
+$\Longleftarrow$	\Longleftarrow		<br>
+$\longrightarrow$	\longrightarrow  <br>
+$\Longrightarrow$	\Longrightarrow		<br>
+$\longleftrightarrow$	\longleftrightarrow   <br>
+$\Longleftrightarrow$	\Longleftrightarrow		<br>
+$\longmapsto$	\longmapsto   <br>
+$\hookrightarrow$	\hookrightarrow		 <br>
+$\rightharpoonup$	\rightharpoonup   <br>
+$\rightharpoondown$	\rightharpoondown	 	<br>
+$\leadsto$	\leadsto   <br>
+$\uparrow$	\uparrow		<br>
+$\Uparrow$	\Uparrow   <br>
+$\downarrow$	\downarrow		<br>
+$\Downarrow$	\Downarrow   <br>
+$\updownarrow$	\updownarrow	<br>	
+$\Updownarrow$	\Updownarrow   <br>
+$\nearrow$	\nearrow		<br>
+$\searrow$	\searrow   <br>
+$\swarrow$	\swarrow		<br>
+$\nwarrow$	\nwarrow    <br>
+</div>
+
+
+<h3>点</h3>
+<div>
+$\ldots$	\ldots	：例如 \ldots 2 是 $\ldots 2$，l 是 lower 的意思。 <br> 
+$\vdots$ 	\vdots		<br>
+$\cdots$   \cdots	：例如 \cdots 2 是 $\cdots 2$，c 是 center 的意思。	<br>
+$\ddots$	\ddots
+</div>
+
+
+<h3>附加符号</h3>
+
+<div>
+$\vec{x}$	\vec{x}	：常用来表示矢量。<br>	
+$\hat{x}$	\hat{x}	<br>
+$\check{x}$	\check{x}	<br>
+$\dot{x}$	\dot{x}	<br>
+$\breve{x}$	\breve{x}	<br>
+$\acute{x}$	\acute{x}	<br>
+$\ddot{x}$	\ddot{x}	<br>
+$\grave{x}$	\grave{x}	<br>
+$\tilde{x}$	\tilde{x}	<br>
+$\mathring{x}$	\mathring{x}	<br>
+$\bar{x}$	\bar{x}	<br>
+</div>
+
+
+
+
+
+
+</body>
