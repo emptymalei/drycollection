@@ -1,4 +1,6 @@
-Backups
-=======
+Don't Repeat Yourself Collection
+=====================================
 
-Some backups, some software I use, some libraries I need, etc
+A collection of files that keeps me DRY.
+
+Some dotfiles, software I use, libraries I need, etc.
