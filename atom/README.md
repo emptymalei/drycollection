@@ -1,5 +1,10 @@
-## Atom Editor
+## Atom Editor DRY
 
+
+* [Atom Packages List](atompackages.list): list of atom packages.
+
+
+### Some basics about atom
 
 Packages installed are in `atompackages.list`.
 

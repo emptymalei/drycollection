@@ -1,6 +1,6 @@
 ## Android
 
-这是我的 Android 系统的一些备份。
+Android backups.
 
 ### Apps
 
@@ -22,5 +22,5 @@
 16. Skitch
 17. Todost: you bought the premium for a year. Ends in 2016
 18. Wolfram Alpha: use the power of pro account.
-
+19. Twilight: to reduce the blue light at night.
 
