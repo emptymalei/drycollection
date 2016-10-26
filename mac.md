@@ -6,6 +6,11 @@
 
 ### Essentials
 
+#### CLI
+
+1. [jrnl](jrnl.sh)
+2. fortune: `brew install fortune` tells a fortune
+
 
 #### Apps
 
