@@ -10,3 +10,9 @@
    
    * The are the same: `in spite of what has just been said`
    * `Notheless` is more formal than `nevertheless`
+
+
+
+### List of Words
+
+1. `paramount virtue`: That is, we spontaneously break the gauge symmetry, which has `paramount virtue` that the theory remains renormalizable. -- Quarks and Leptions.
