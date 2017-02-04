@@ -26,3 +26,7 @@
 
 1. iTerm
 2. sdcv
+
+## Tricks on Mac
+
+1. Setting up OBS using soundflower: http://code-zest.blogspot.com/2016/02/setting-up-obs-with-audio-output-in-mac.html
