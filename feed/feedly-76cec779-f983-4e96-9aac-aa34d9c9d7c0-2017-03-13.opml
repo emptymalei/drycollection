@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Lei subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="InterImm" title="InterImm">
+            <outline type="rss" text="InterPlanetary Networking Special Interest Group (IPNSIG)" title="InterPlanetary Networking Special Interest Group (IPNSIG)" xmlUrl="http://ipnsig.org/feed/" htmlUrl="http://ipnsig.org"/>
+        </outline>
+        <outline text="Must Read" title="Must Read">
+            <outline type="rss" text="Recent Articles in Rev. Mod. Phys." title="Recent Articles in Rev. Mod. Phys." xmlUrl="http://feeds.aps.org/rss/recent/rmp.xml" htmlUrl="http://journals.aps.org/rmp/"/>
+            <outline type="rss" text="Neutrino Blog" title="Neutrino Blog" xmlUrl="http://neutrinoscience.blogspot.com/feeds/posts/default" htmlUrl="http://neutrinoscience.blogspot.com/"/>
+            <outline type="rss" text="Nature Physics - Issue - nature.com science feeds" title="Nature Physics - Issue - nature.com science feeds" xmlUrl="http://feeds.nature.com/nphys/rss/current" htmlUrl="http://www.nature.com/nphys/current_issue/"/>
+            <outline type="rss" text="Mirizzi Paper" title="Mirizzi Paper" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=mirizzi" htmlUrl="http://inspirehep.net"/>
+            <outline type="rss" text="Rafelt Paper" title="Rafelt Paper" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=Georg+Raffelt" htmlUrl="http://inspirehep.net"/>
+            <outline type="rss" text="PRL Editors' Suggestions" title="PRL Editors' Suggestions" xmlUrl="http://feeds.aps.org/rss/recent/prlsuggestions.xml" htmlUrl="http://journals.aps.org/prl/"/>
+            <outline type="rss" text="Physics - spotlighting exceptional research" title="Physics - spotlighting exceptional research" xmlUrl="http://feeds.aps.org/rss/recent/physics.xml" htmlUrl="http://physics.aps.org/"/>
+            <outline type="rss" text="Off the convex path" title="Off the convex path" xmlUrl="http://www.offconvex.org/feed.xml" htmlUrl="http://offconvex.github.io/"/>
+        </outline>
+        <outline text="Neuroscience" title="Neuroscience">
+            <outline type="rss" text="Neuroscience – SciTech Connect" title="Neuroscience – SciTech Connect" xmlUrl="http://scitechconnect.elsevier.com/category/neuroscience/feed/" htmlUrl="http://scitechconnect.elsevier.com"/>
+        </outline>
+        <outline text="Neutrino" title="Neutrino">
+            <outline type="rss" text="neutrino" title="neutrino" xmlUrl="http://neutrinblog.blogspot.com/feeds/posts/default" htmlUrl="http://neutrinblog.blogspot.com/"/>
+            <outline type="rss" text="James Kneller" title="James Kneller" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=exactauthor%3AJ.P.Kneller.1" htmlUrl="http://inspirehep.net"/>
+            <outline type="rss" text="Neutrino Blog" title="Neutrino Blog" xmlUrl="http://neutrinoscience.blogspot.com/feeds/posts/default" htmlUrl="http://neutrinoscience.blogspot.com/"/>
+            <outline type="rss" text="NEUTRINO" title="NEUTRINO" xmlUrl="http://neutrino.xyz/atom.xml" htmlUrl="http://neutrino.xyz/"/>
+            <outline type="rss" text="HEP" title="HEP" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=exactauthor%3AA.Mirizzi.1" htmlUrl="http://inspirehep.net"/>
+            <outline type="rss" text="Mirizzi Paper" title="Mirizzi Paper" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=mirizzi" htmlUrl="http://inspirehep.net"/>
+            <outline type="rss" text="Rafelt Paper" title="Rafelt Paper" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=Georg+Raffelt" htmlUrl="http://inspirehep.net"/>
+        </outline>
+        <outline text="Astrophysics" title="Astrophysics">
+            <outline type="rss" text="Earth and Planetary Astrophysics  authors/titles recent submissions" title="Earth and Planetary Astrophysics  authors/titles recent submissions" xmlUrl="http://arxiv.org/rss/astro-ph.EP" htmlUrl="http://arxiv.org/"/>
+        </outline>
+        <outline text="news" title="news">
+            <outline type="rss" text="时见疏星" title="时见疏星" xmlUrl="http://multiverse.lamost.org/blog/?feed=rss2" htmlUrl="http://multiverse.lamost.org/blog"/>
+            <outline type="rss" text="InterPlanetary Networking Special Interest Group (IPNSIG)" title="InterPlanetary Networking Special Interest Group (IPNSIG)" xmlUrl="http://ipnsig.org/feed/" htmlUrl="http://ipnsig.org"/>
+            <outline type="rss" text="星海航纪" title="星海航纪" xmlUrl="http://interimm.org/magazine/atom.xml" htmlUrl="http://interimm.org/magazine/"/>
+            <outline type="rss" text="IceCube Neutrino Observatory" title="IceCube Neutrino Observatory" xmlUrl="http://icecube.wisc.edu/news/feed" htmlUrl="http://icecube.wisc.edu"/>
+        </outline>
+        <outline text="Comics" title="Comics">
+            <outline type="rss" text="xkcd.com" title="xkcd.com" xmlUrl="http://xkcd.com/rss.xml" htmlUrl="https://xkcd.com/"/>
+            <outline type="rss" text="What If?" title="What If?" xmlUrl="http://origin.whatif.xkcd.com/feed.atom" htmlUrl="http://what-if.xkcd.com"/>
+            <outline type="rss" text="Buttersafe" title="Buttersafe" xmlUrl="http://buttersafe.com/feed/" htmlUrl="http://buttersafe.com"/>
+            <outline type="rss" text="Finnish Nightmares" title="Finnish Nightmares" xmlUrl="http://finnishnightmares.blogspot.com/feeds/posts/default" htmlUrl="http://finnishnightmares.blogspot.com/"/>
+        </outline>
+        <outline text="physics" title="physics">
+            <outline type="rss" text="Recent Articles in Rev. Mod. Phys." title="Recent Articles in Rev. Mod. Phys." xmlUrl="http://feeds.aps.org/rss/recent/rmp.xml" htmlUrl="http://journals.aps.org/rmp/"/>
+            <outline type="rss" text="PRD: Astrophysics &amp; Cosmology" title="PRD: Astrophysics &amp; Cosmology" xmlUrl="http://feeds.aps.org/rss/tocsec/PRD-AstrophysicsCosmology.xml" htmlUrl="http://journals.aps.org/prd/"/>
+            <outline type="rss" text="Physical Review Focus" title="Physical Review Focus" xmlUrl="http://feeds.aps.org/rss/recent/focus.xml" htmlUrl="http://focus.aps.org"/>
+            <outline type="rss" text="Physics – SciTech Connect" title="Physics – SciTech Connect" xmlUrl="http://scitechconnect.elsevier.com/category/physics/feed/" htmlUrl="http://scitechconnect.elsevier.com"/>
+            <outline type="rss" text="Nature Physics - Issue - nature.com science feeds" title="Nature Physics - Issue - nature.com science feeds" xmlUrl="http://feeds.nature.com/nphys/rss/current" htmlUrl="http://www.nature.com/nphys/current_issue/"/>
+            <outline type="rss" text="Quantum Diaries" title="Quantum Diaries" xmlUrl="http://www.quantumdiaries.org/feed/" htmlUrl="http://www.quantumdiaries.org"/>
+            <outline type="rss" text="Mirizzi Paper" title="Mirizzi Paper" xmlUrl="http://inspirehep.net/rss?ln=en&amp;p=mirizzi" htmlUrl="http://inspirehep.net"/>
+            <outline type="rss" text="PRL Editors' Suggestions" title="PRL Editors' Suggestions" xmlUrl="http://feeds.aps.org/rss/recent/prlsuggestions.xml" htmlUrl="http://journals.aps.org/prl/"/>
+            <outline type="rss" text="PRC: Nuclear Astrophysics" title="PRC: Nuclear Astrophysics" xmlUrl="http://feeds.aps.org/rss/tocsec/PRC-NuclearAstrophysics.xml" htmlUrl="http://journals.aps.org/prc/"/>
+            <outline type="rss" text="Physics - spotlighting exceptional research" title="Physics - spotlighting exceptional research" xmlUrl="http://feeds.aps.org/rss/recent/physics.xml" htmlUrl="http://physics.aps.org/"/>
+            <outline type="rss" text="Recent Articles in Phys. Rev. Lett." title="Recent Articles in Phys. Rev. Lett." xmlUrl="http://feeds.aps.org/rss/recent/prl.xml" htmlUrl="http://journals.aps.org/prl/"/>
+        </outline>
+        <outline text="关注" title="关注">
+            <outline type="rss" text="一个生物学生" title="一个生物学生" xmlUrl="http://blog.sina.com.cn/rss/1789618360.xml" htmlUrl="http://blog.sina.com.cn/u/1789618360"/>
+        </outline>
+        <outline text="Design" title="Design">
+            <outline type="rss" text="Type is Beautiful" title="Type is Beautiful" xmlUrl="http://feeds.feedburner.com/TypeIsBeautiful" htmlUrl="http://www.typeisbeautiful.com"/>
+        </outline>
+        <outline text="Science" title="Science">
+            <outline type="rss" text="Nature Podcast" title="Nature Podcast" xmlUrl="http://feeds.nature.com/nature/podcast/current" htmlUrl="http://www.nature.com/nature/podcast"/>
+            <outline type="rss" text="InterPlanetary Networking Special Interest Group (IPNSIG)" title="InterPlanetary Networking Special Interest Group (IPNSIG)" xmlUrl="http://ipnsig.org/feed/" htmlUrl="http://ipnsig.org"/>
+            <outline type="rss" text="What If?" title="What If?" xmlUrl="http://what-if.xkcd.com/feed.atom"/>
+            <outline type="rss" text="Nature - Issue - nature.com science feeds" title="Nature - Issue - nature.com science feeds" xmlUrl="http://www.nature.com/nature/current_issue/rss" htmlUrl="http://www.nature.com/nature/current_issue/"/>
+            <outline type="rss" text="Neuron Star Atom Feed" title="Neuron Star Atom Feed" xmlUrl="http://neuronstar.github.io/atom.xml" htmlUrl="http://neuronstar.cc/"/>
+            <outline type="rss" text="Next Big Future" title="Next Big Future" xmlUrl="http://feeds.feedburner.com/blogspot/advancednano" htmlUrl="http://www.nextbigfuture.com/"/>
+            <outline type="rss" text="Quantum Diaries" title="Quantum Diaries" xmlUrl="http://www.quantumdiaries.org/feed/" htmlUrl="http://www.quantumdiaries.org"/>
+            <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="http://rss.sciam.com/ScientificAmerican-Global" htmlUrl="http://www.scientificamerican.com"/>
+            <outline type="rss" text="Off the convex path" title="Off the convex path" xmlUrl="http://www.offconvex.org/feed.xml" htmlUrl="http://offconvex.github.io/"/>
+            <outline type="rss" text="Science: Current Issue" title="Science: Current Issue" xmlUrl="http://www.sciencemag.org/rss/current.xml" htmlUrl="http://www.sciencemag.org"/>
+        </outline>
+        <outline text="Exoplanet" title="Exoplanet">
+            <outline type="rss" text="ExoplanetSpot" title="ExoplanetSpot" xmlUrl="http://exoplanet-spot.blogspot.com/feeds/posts/default" htmlUrl="http://exoplanet-spot.blogspot.com/"/>
+            <outline type="rss" text="Astrobiology Magazine" title="Astrobiology Magazine" xmlUrl="http://www.astrobio.net/feed/podcast" htmlUrl="http://www.astrobio.net"/>
+            <outline type="rss" text="Exoplanetology" title="Exoplanetology" xmlUrl="http://exoplanetology.blogspot.com/feeds/posts/default" htmlUrl="http://exoplanetology.blogspot.com/"/>
+        </outline>
+        <outline type="rss" text="Rocky Sand Studio News" title="Rocky Sand Studio News" xmlUrl="http://rockysandstudio.com/tag/news/feed" htmlUrl="http://www.rockysandstudio.com"/>
+    </body>
+</opml>
