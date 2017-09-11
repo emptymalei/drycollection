@@ -17,6 +17,7 @@
 
 1. Evernote
 2. [Snappy App](http://www.snappy-app.com/)
+3. [Spectacle](https://www.spectacleapp.com/): Resize windows with shortcuts.
 
 
 
